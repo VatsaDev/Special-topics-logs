@@ -8,3 +8,11 @@
 
 # Week 2
  - Goal: Look into how genetic algorithms work
+ - Basic Principals, Reranking and Crossover and Mutation
+    - Reranking
+        - Scoring all instances on a fitness function, who did the best
+        - Fitness function, The scoring
+     - Crossover
+         - Combining the traits of two instances to form a new instance
+     - Mutation
+        - changing a couple values randomly to represent entropy and nature
