@@ -16,3 +16,16 @@
          - Combining the traits of two instances to form a new instance
      - Mutation
         - changing a couple values randomly to represent entropy and nature
+# Week 3
+ - Goal: being able to use A classification model
+ - Found ML5.js, appears to have a useable classification model
+ - appears to work well with two inputs/outputs, successfully becomes a Pro at the Dino game
+
+# Week 4  
+ - Goal: Putting all the principles so far together and making a useable genetic algorithm demo
+ - A Game engine is overkill for this, and canvas is too low level, settled for P5.js
+ - Fiddled with it a little bit, simulation and clones work
+ - Added ML5.js work, now the classification is possible, but poor for the number of inputs and outputs
+ - Reranking is possible between the foxes and chickens with the score for chickens being who lived, and the score for foxes being the chickens eaten
+ - Crossover is possible with ML5.js
+ - It works, but their brains suck, will use Feb start to make a proper synth data CNN, and custom crossover
