@@ -29,3 +29,4 @@
  - Reranking is possible between the foxes and chickens with the score for chickens being who lived, and the score for foxes being the chickens eaten
  - Crossover is possible with ML5.js
  - It works, but their brains suck, will use Feb start to make a proper synth data CNN, and custom crossover
+ - started working on data loader, but need a way to transmit data to a file, probably going for 800k-1M samples for a proper dataset
