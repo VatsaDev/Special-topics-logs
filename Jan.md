@@ -30,5 +30,5 @@
  - Crossover is possible with ML5.js
  - It works, but their brains suck, will use Feb start to make a proper synth data CNN, and custom crossover
  - started working on data loader, but need a way to transmit data to a file, probably going for 800k-1M samples for a proper dataset
- - Last day of Jan, trained the CNN, MLP, and bigram, like a month ahead of schedule
+ - Last day of Jan, trained the CNN, MLP, and bigram, been looking through all the RNN, like a month ahead of schedule
  - started looking into RL

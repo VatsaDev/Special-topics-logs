@@ -1,5 +1,31 @@
 # Feb Logs
 
 ## Week 1
- - Feb 1:
-    - Goal: Look at CNNs and convolutions
+ - looking into RL
+    - agent, action, environment, state, reward
+    - agent, gives action to env.
+    - the state of the env is there, depending on how well it does in the state, gets a reward
+    - the goal is to maximize cumulative reward
+ - State Space
+    - State: complete world info, everything is known
+    - observation: part of the overall state
+ - Action space
+    - Discrete: number of actions is finite
+    - continuous: number of actions is infinite
+ - Reward and discount
+    - set a discount amount gamma, the larger the gamma, the more the agent cares about long term reward
+    - short gamma, short term reward
+ - Tasks
+    - A task is an RL problem instance
+    - Episodic task: Have a starting point and end point
+    - Continuous Tasks: Are always running, user stops them, agent learns best actions and simultaneously interacts with the environment
+ - Exploration v. Exploitation
+    - Exploitation only uses the nearest rewards
+    - Exploration helps find more rewards
+ - The main ways to solve an RL problem
+    - Policy, RL brain, the point is to find the optimal policy
+       - direct: teach the model an action to take, policy based methods
+         - Makes a map of state to action
+         - stochastic and deterministic, first one give a probability range, second gives the same value every time
+       - indirect: teach the model which state is more valuable, take an action that leads to more valuable states
+         - value function, maps state to value, expected value of state
