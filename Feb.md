@@ -29,3 +29,30 @@
          - stochastic and deterministic, first one give a probability range, second gives the same value every time
        - indirect: teach the model which state is more valuable, take an action that leads to more valuable states
          - value function, maps state to value, expected value of state
+ - Q-learning/DeepQ-learning
+    - Q-learning
+       - state and action input to Q table
+       - get Q value out
+    - Deep Q learning
+       - state input to deep Q NN
+       - Q value actions out
+
+ - Training a simulation
+    - box2d environment with gymnasium
+    - uses stable baselines 3
+    - Uses gymnasium
+       - a way to make RL state/environment easy
+       - steps
+          - create env with `gymnasium.make()`
+          - reset env with `observation = env.reset()`
+          - get a model action
+          - change the env with `env.step(action)`
+             - gives the observation (new state), reward, whether we terminated of not, truncated(time-limit/out of bounds)
+             - if terminated, we use `observation = env.reset()`
+    - Use PPO
+       - surprising to see this so early, thought PPO was a more late game technique
+       - train this simple model for 1,000,000 time steps (~20 min) for a simple env, more complex ones will take days 
+       - Hmm Karpathy made hos own reinforce.js for RL in browser, maybe implement PPO in browser with three.js for environments
+       
+ - Further reading
+    - 

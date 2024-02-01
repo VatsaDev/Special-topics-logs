@@ -16,7 +16,7 @@ May: ViT, low poly 3d sim, ultimate goal
 
 Current Timeline
 Jan: Cellular automata, genetic algorithms, classification, NEAT, CNN, MLP, Bigram, RNN
-Feb: Basic RL
+Feb: Basic RL, sb3
 Mar:
 Apr:
 May:
