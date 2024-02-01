@@ -55,4 +55,11 @@
        - Hmm Karpathy made hos own reinforce.js for RL in browser, maybe implement PPO in browser with three.js for environments
        
  - Further reading
-    - 
+    - Deep RL: Pong from pixels
+       - The 4 parts of AI
+          - Compute(GPUs, ASICs)
+          - Datasets
+          - algorithms
+          - infra (HPC, linux, etc)
+       - policy gradients work much better than DQN
+       - Pong is a case of MDP, Markov decision process, a graph where every node is state and reward, and all the edges are transitions. Goal is to maximize total reward from transitions
