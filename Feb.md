@@ -63,3 +63,20 @@
           - infra (HPC, linux, etc)
        - policy gradients work much better than DQN
        - Pong is a case of MDP, Markov decision process, a graph where every node is state and reward, and all the edges are transitions. Goal is to maximize total reward from transitions
+       - learning pong from raw pixels means getting an environment of a pong state, 210x160x3 values, RGB pixel for a 210x160 instance
+       - low action space, up/down per paddle, great toy problem
+       - the policy network is a 2 layer model
+          - Input of 100800 numbers, 210x160x3
+          - action is just the probability of going up
+          - stochastic sampling of probabilities
+       - supervised learning
+          - the parameter and gradient changes due to the scenario
+          - helps the model predict similar moves in similar scenarios
+       - policy gradients
+          - helps against bad labels in supervised learning 
+          - the outcome of the game determines the probabilities of actions
+       - Win/loss to actions
+          - If the game is won, its all good actions
+          - if the game is lost its all bad actions
+          - bad in a couple games, but works out in the long run
+       - another possibility is the discount with cumulative earlier
