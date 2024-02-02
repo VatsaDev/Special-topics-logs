@@ -80,3 +80,20 @@
           - if the game is lost its all bad actions
           - bad in a couple games, but works out in the long run
        - another possibility is the discount with cumulative earlier
+
+ - Making custom RL environments
+    - define state and action space
+    - define rewards
+    - gym works, but other RL can be better
+    - make sure to have resets and steps
+    - render is possible with anything, many do it in pygame
+
+ - Reinforcement learning the book
+    - RL is unsupervised learning, about finding structure hidden in collections of unlabelled data
+    - Exploration v. Exploitation, neither one can happen independently, one has to do both to succeed
+    - Limitations and scope
+       - RL relies heavily on state (whatever information is available to the model)
+       - a lot happens in effectively using state to actions in RL
+       - model free arch tend to be stateless, prev situations don't really affect current situation, each situation can be played on its own
+    - RL history
+       - Trial and error comes from the 1948 pleasure-pain report
