@@ -25,7 +25,7 @@
  - flowers
  - boulders
  - bamboo
-
+ 
 ## Terrain
  - low poly mode, simplex noise, marching cubes design and stuff
  - trees/animals are all models
