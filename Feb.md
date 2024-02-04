@@ -97,3 +97,28 @@
        - model free arch tend to be stateless, prev situations don't really affect current situation, each situation can be played on its own
     - RL history
        - Trial and error comes from the 1948 pleasure-pain report
+
+ - Huggy the dog RL through HF
+    - based off unity ML agents
+    - Huggy's state is the stick pos, the relative pos between dog and stick, and leg orientation
+    - Huggy learns to rotate his legs
+    - the goal in this case is getting to the stick without spinning too much
+    - multipart reward function
+       - reach target bonus
+       - time penalty
+       - orientation bonus
+       - rotation penalty
+
+ - 3d terrain gen with triangles/polygons
+    - useful for future work, thin-matrix equinox style sim
+    - start with a sin wave, convert to triangle mesh
+    - in 2d, using marching squares, 3d used marching cubes
+    - sin waves are unrealistic, use the simplex noise function instead
+    - build the noise gen in chunks for performance
+    - marching cubes are chunky, add interpolation for smoothness
+    - use fractal noise on the fractal noise to make it natural
+
+ - Intro to Q-learning
+    - deeper dive to value based methods
+    - using Q-learning
+
