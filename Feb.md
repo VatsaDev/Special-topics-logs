@@ -120,5 +120,17 @@
 
  - Intro to Q-learning
     - deeper dive to value based methods
-    - using Q-learning
+    - using Q-learning, two methods
+       - policy only, train policy, policy is nn, train the policy directly
+       - value based, policy is a function defined, optimal value function, optimal policy
+          - train a value-function that is an NN
 
+ - The bellman equation
+    - calculating expected rewards
+    - sum of the immediate reward and discounted value of following state
+
+ - two learning strats, monte carlo v temporal diff.
+    - both are strats on training value/policy function
+    - Monte Carlo waits for a complete state, the whole thing, compares actions across
+    - Temporal diff updates after each action
+    - (I feel like temporal diff would be faster, but not as exploration-based, and therefore have a lower cap) 
