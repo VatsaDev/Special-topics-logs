@@ -134,3 +134,21 @@
     - Monte Carlo waits for a complete state, the whole thing, compares actions across
     - Temporal diff updates after each action
     - (I feel like temporal diff would be faster, but not as exploration-based, and therefore have a lower cap) 
+
+ - Intro to Q-learning
+    - off policy
+    - value based method, find the optimal policy indirectly
+    - temp. diff approach, update per step
+    - state-action pair values encoded in q-table
+    - value and policy linked, the q-table is initially useless, the policy changes that
+
+    - Q-table Algo
+       - initialize Q-table, all values 0
+       - use epsilon greedy strats to get the action
+       - over time exploration drops, exploitation starts
+       - perform action, get reward
+       - update Q-table
+   
+    - off policy vs on policy
+       - off has diff policy for acting and updating
+       - on has same policy for both
