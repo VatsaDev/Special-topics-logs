@@ -152,3 +152,12 @@
     - off policy vs on policy
        - off has diff policy for acting and updating
        - on has same policy for both
+
+ - monte carlo v td
+    - Monte Carlo needs more data samples, while TD needs less
+    - TD has a huge bias towards initial start, and this can be a problem sometimes
+    - (Hmm, The evo sim would need monte carlo, as TD would be very biased to starting env, while evo sim would be really diverse, Raw Pixel RL)
+
+ - feb 7
+
+    - 

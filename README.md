@@ -9,14 +9,14 @@ Ultimate Goal:
 
 Original Timeline
 Jan: Cellular automata, genetic algorithms, classification <br>
-Feb: NEAT, CNN, MLP, Bigrams, RNN <br>
+Feb: NEAT, CNN, MLP, Bigram, RNN <br>
 Mar: Basic RL, sb3, MC RL <br>
 Apr: Finish MC RL, transformers, language modeling, data processing, function calling, robotics <br>
 May: ViT, low poly 3d sim, ultimate goal <br>
 
 Current Timeline
-Jan: Cellular automata, genetic algorithms, classification, NEAT, CNN, MLP, Bigrams, RNN <br>
-Feb: Basic RL, sb3, three.js <br>
+Jan: Cellular automata, genetic algorithms, classification, NEAT, CNN, MLP, Bigram, RNN <br>
+Feb: Basic RL, sb3, three.js Q-learning<br>
 Mar: <br>
 Apr: <br>
 May: <br>
