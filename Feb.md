@@ -160,4 +160,4 @@
 
  - feb 7
 
-    - 
+    - not able to do much today, but did look at DSA, its been a month or so since the google foobar challenge
