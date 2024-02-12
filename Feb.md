@@ -159,5 +159,18 @@
     - (Hmm, The evo sim would need monte carlo, as TD would be very biased to starting env, while evo sim would be really diverse, Raw Pixel RL)
 
  - feb 7
-
     - not able to do much today, but did look at DSA, its been a month or so since the google foobar challenge
+
+ - feb 12
+    - looked into the function call creation
+    - so now that FTC is over, i plan to create a voice to functions that the robot executes
+    - theres 17 possible robot states, instructions = ["forward()","backward()","strL()","strR()","spin()","tL()","tR()","diagR()","diagL()","e_out()","e_in()","l_claw(0)","l_claw(1)","r_claw(0)","r_claw(1)","wrist_up()","wrist_down()"]
+    - make a random combination dataset of this, limit to about 20 million instructions
+    - convert them all to natural language instructions 
+    - use stt for get the text i speak, then convert to functions, send to bot
+
+   - on other topics, Deep Q-learning, real RL
+   - Q tables just set rewards, but the tables only work for small action/env spaces, while larger ones are impossible to make that way
+
+   - setting up a vllm endpoint for phi-2
+   - speedy high tok/s counts to convert instructions
