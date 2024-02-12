@@ -16,7 +16,7 @@ May: ViT, low poly 3d sim, ultimate goal <br>
 
 Current Timeline
 Jan: Cellular automata, genetic algorithms, classification, NEAT, CNN, MLP, Bigram, RNN <br>
-Feb: Basic RL, sb3, three.js Q-learning<br>
+Feb: Basic RL, sb3, three.js Q-table, deep-Q, function calling<br>
 Mar: <br>
 Apr: <br>
 May: <br>
