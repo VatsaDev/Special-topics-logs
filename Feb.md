@@ -174,3 +174,8 @@
 
    - setting up a vllm endpoint for phi-2
    - speedy high tok/s counts to convert instructions
+
+ - Feb 21, been awhile since I updated, but was looking into a lot of diverse topics
+    - started looking at a curriculum learning paper, about feeding ai data in an increasingly difficult rate
+    - Lilith the optimizer, testing it out
+    - Data generation with the function calling
