@@ -179,3 +179,11 @@
     - started looking at a curriculum learning paper, about feeding ai data in an increasingly difficult rate
     - Lilith the optimizer, testing it out
     - Data generation with the function calling
+
+ - Feb 23
+    - start PicoCTF challenges, working through them to learn cybersecurity, fun puzzles
+    - Looking into deep-Q learning, analyzing structure
+       - For Atari
+          - takes 4 images at a time, processes them with convolutional layers, to downsize and grayscale
+          - Then takes these values, gets fully connected layers to pick probabilities
+          - 4 frames at a time, as one frame is not enough to figure out temporal stuff, predict whats next
