@@ -205,4 +205,4 @@
           - fixed Q-target for stability
             - sep. nn for good parameters 
           - Double DQN, extra stability
-            - stop overestimation
+            - stops overestimation
