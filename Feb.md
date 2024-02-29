@@ -187,3 +187,22 @@
           - takes 4 images at a time, processes them with convolutional layers, to downsize and grayscale
           - Then takes these values, gets fully connected layers to pick probabilities
           - 4 frames at a time, as one frame is not enough to figure out temporal stuff, predict whats next
+
+ - Feb 26
+       - loss function
+         - changes q-prediction and q-target
+
+       - Sampling
+          - perform random actions, store the experienced tuples
+       - Training
+          - pick a small batch of tuples and train on them, one step of grad descent
+
+       - DQN can be unstable, non-linear activations, combat with
+          - Experienced replay: makes more efficient use of replays
+            - Normally, states are discarded after use
+            - Hold prev states in a replay buffer to sample from later
+            - Helps agent not forget previous scenarios, while also random sampling helps negate biases
+          - fixed Q-target for stability
+            - sep. nn for good parameters 
+          - Double DQN, extra stability
+            - stop overestimation
